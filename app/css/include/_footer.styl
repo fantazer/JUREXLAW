@@ -1,0 +1,54 @@
+.footer
+	bsh()
+	background white
+	z-index 2000 
+	background dark 
+	padding 10px 0
+.footer__logo
+	+below(768px)
+		width 150px
+	margin 5px 0
+	width 200px
+.footer-wraper
+	flex(between)
+	align-items inherit
+.footer__nav
+	flex(between)
+.footer__phone
+	+below(768px)
+		font-size 16px
+	flex(between)
+	font-size 24px
+	font-weight 700
+	color white
+.footer__link
+	position relative
+	height 100%
+	flex(mid)
+	text-align center
+.footer__link > a 
+	up()
+	color white
+	margin-right 30px
+	font-size 12px
+	display block
+	font-weight 700
+.footer-sub
+	display none 
+	position absolute
+	top 100% 
+	left 0px
+	background grey
+	z-index 2000
+	border-top 2px solid red
+.footer-sub__el
+	display block
+	white-space nowrap
+	padding 10px
+	width 200px
+	border-bottom 1px solid darken(grey,10)
+	tr(all)
+	&:hover
+		background red
+		color white 
+	

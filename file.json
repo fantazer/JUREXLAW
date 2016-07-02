@@ -1,0 +1,17 @@
+{
+	"block":{
+		"slider-main":"slider",
+		"main-service":"main-service",
+		"line get order":"get-order",
+		"line get order":"relax",
+		"clients":"clients",
+		"contact":"contact",
+		"breadcrumbs":"breadcrumbs",
+		"service-value":"service-value",
+		"list-service":"list-service"
+	},
+	"page":{
+		"index":"index",
+		"page":"page"
+	}
+}

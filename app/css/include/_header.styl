@@ -1,0 +1,97 @@
+.header
+	+below(768px)
+		padding 10px 0px
+	bsh()
+	background white
+	z-index 2000 
+.header__logo
+	+below(768px)
+		width 100px
+	margin 5px 0
+	width 200px
+.header-wraper
+	+below(768px)
+		align-items center
+	flex(between)
+	align-items inherit
+	.icon-bars
+		+below(768px)
+			display block 
+		display none
+		margin-left 20px
+		font-size 20px
+		cp()
+.header__nav
+	+above(768px)
+		display flex!important
+	+below(768px)
+		fw()
+		display none
+		position absolute
+		background white
+		width 100% 
+		z-index 2000
+		margin-top 10px
+	flex(between)
+	left 0px
+	top 100%
+.header__phone
+	+below(960px)
+		font-size 16px
+	+below(768px)
+		margin-left auto
+	flex(between)
+	font-size 24px
+	font-weight 700
+.header__link
+	+below(768px)
+		width 100%
+		border-top 1px solid grey 
+		display block 
+	position relative
+	height 100%
+	flex(mid)
+	text-align center
+	&:hover
+		.header-sub
+			display block
+.header__link > a 
+	+below(960px)
+		font-size 14px
+	+below(768px)
+		background white 
+		display inline-block
+		padding 10px
+		margin-right 0
+	up()
+	color dark
+	margin-right 30px
+	font-size 16px
+	display block
+	font-weight 700
+.header-sub
+	+below(768px)
+		display block
+		position relative
+		width 100%
+		border-top 0px
+	display none 
+	position absolute
+	top 100% 
+	left 0px
+	background grey
+	z-index 2000
+	border-top 2px solid red
+.header-sub__el
+	+below(768px)
+		width 100%
+	display block
+	white-space nowrap
+	padding 10px
+	width 200px
+	border-bottom 1px solid darken(grey,10)
+	tr(all)
+	&:hover
+		background red
+		color white 
+	
