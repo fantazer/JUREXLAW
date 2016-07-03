@@ -56,6 +56,7 @@ $(document).ready(function(){
   	}
   );  
 	
+	//Animate header
 	var shrinkHeader = 500;
   $(window).scroll(function() {
     var scroll = $(this).scrollTop();
@@ -69,21 +70,26 @@ $(document).ready(function(){
             $('body').css('paddingTop',0);
         }
 });
-  //Hide toggle el
-  var hideToggle = function(targetClick,toggleEl) {
-  		$(targetClick).click(function(event){
-  				event.stopPropagation();
-  				$(toggleEl).slideToggle("fast");
-  		});
-  		$(toggleEl).on("click", function (event) {
-  			event.stopPropagation();
-  		});
-  		$(document).on("click", function () {
-  				$(toggleEl).hide();
-  		});
-  	}
 
-  hideToggle('.header__toggle','.header__nav');
+//Hide toggle el
+var hideToggle = function(targetClick,toggleEl) {
+		$(targetClick).click(function(event){
+				event.stopPropagation();
+				$(toggleEl).slideToggle("fast");
+		});
+		$(toggleEl).on("click", function (event) {
+			event.stopPropagation();
+		});
+		$(document).on("click", function () {
+				$(toggleEl).hide();
+		});
+	}
+
+hideToggle('.header__toggle','.header__nav');
+hideToggle('.list-service__toggle','.list-service__wrap');
+
+//responsive table
+$('.table').stacktable();
 	/* ###### init EasyDropDown style for selects  ######*/
 	/* ###### bower i easydropdown  ######*/
 	/*<select class="dropdown"> add class (dropdown)

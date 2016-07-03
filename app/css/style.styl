@@ -35,15 +35,23 @@ body
 	+above(1200px)
 		width 1200px
 .content-wraper
-	margin-bottom 30px
 	flex(between)
+	fw()
+	margin-bottom 30px
 	align-items flex-start
 .content
+	+below(968px)
+		width 100%
+		order 2
 	width 68%	
+	order 1
 .toolbar
+	+below(968px)
+		width 100%
+		order 1
 	width 26%	
+	order 2
+.map
+	margin-top -40px
 /* -------------- style for header --------------*/
 @import "include/*"
-
-
-

@@ -1,0 +1,4418 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bod",
+				"bodyPad"
+			],
+			[
+				"min",
+				"min-height	styl"
+			],
+			[
+				"logo",
+				"app/img/logo-big.png"
+			],
+			[
+				"lis",
+				"list-style	styl"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"flex",
+				"flex-grow"
+			],
+			[
+				"max",
+				"max-width	styl"
+			],
+			[
+				"lin",
+				"line-height	styl"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"al",
+				"align-items"
+			],
+			[
+				"iocn",
+				"dist/img/icon-seo-1.png"
+			],
+			[
+				"jus",
+				"justify-content"
+			],
+			[
+				"cu",
+				"cursor"
+			],
+			[
+				"ove",
+				"overflow	styl"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"pos",
+				"position	styl"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"sli",
+				"slideToggle	.slideToggle()"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"brdr",
+				"border-radius	styl"
+			],
+			[
+				"option",
+				"option"
+			],
+			[
+				"referral",
+				"referral_code"
+			],
+			[
+				"FREE",
+				"FREE_BOOKINGS_FOR_RECIPIENT"
+			],
+			[
+				"free_bookin",
+				"free_bookings_remaining"
+			],
+			[
+				"free_booking",
+				"free_bookings_credit_used"
+			],
+			[
+				"free_bookings",
+				"free_bookings_remaining"
+			],
+			[
+				"bus",
+				"bus_registration_number"
+			],
+			[
+				"last",
+				"last_bus_stop_departure_time"
+			],
+			[
+				"alighting",
+				"alighting_bus_stop_id"
+			],
+			[
+				"board",
+				"boarding_bus_stop_id"
+			],
+			[
+				"boarding_bus",
+				"boarding_bus_stop_name"
+			],
+			[
+				"prev",
+				"previous_path"
+			],
+			[
+				"crossed",
+				"crossed_bus_stop"
+			],
+			[
+				"current",
+				"current_bus"
+			],
+			[
+				"depar",
+				"departure_time"
+			],
+			[
+				"regi",
+				"registration_number"
+			],
+			[
+				"boarding",
+				"boarding_bus_stop_id"
+			],
+			[
+				"paths",
+				"paths_on_route"
+			],
+			[
+				"destin",
+				"destination_path"
+			],
+			[
+				"source",
+				"source_path"
+			],
+			[
+				"avail",
+				"available"
+			],
+			[
+				"last_bus",
+				"last_bus_stop_path"
+			],
+			[
+				"last_bus_stop",
+				"last_bus_stop_id"
+			],
+			[
+				"update",
+				"update_firebase_entry_for_trip"
+			],
+			[
+				"aligh",
+				"alighting_bus_stop_id"
+			],
+			[
+				"aut",
+				"authenticate_bus_with_token"
+			],
+			[
+				"walki",
+				"walking_directions_to_bus_stop"
+			],
+			[
+				"boardin",
+				"boarding_bus_stop"
+			],
+			[
+				"walking",
+				"walking_direction_from_bus_stop"
+			],
+			[
+				"walk",
+				"walking_direction_from_bus_stop"
+			],
+			[
+				"source_bus",
+				"source_bus_stop_path"
+			],
+			[
+				"destination",
+				"destination"
+			],
+			[
+				"trips",
+				"trips_with_availability"
+			],
+			[
+				"total",
+				"total_deboarded"
+			],
+			[
+				"alight",
+				"alighting_bus_stop_id"
+			],
+			[
+				"alig",
+				"alighting_bus_stop_id"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "//Include style\ninclude block_html/_style.jade\nbody\n	//Include header\n	include block_html/elements/_header.jade\n	include block_html/elements/_const.jade\n\n	include block_html/elements/_breadcrumbs.jade\n	\n	.main-cont\n		.content-wraper\n			.content\n				\n			.toolbar\n				//section list-service\n				include block_html/elements/_list-service.jade\n\n	//section clients\n	include block_html/elements/_contact.jade\n	//section footer\n	include block_html/elements/_footer.jade\n\n//Include scripts\ninclude ./block_html/_script.jade\n\n",
+			"file": "/C/web/JUREXLAW/app/html/about.jade",
+			"file_size": 6568,
+			"file_write_time": 131119264804177430,
+			"settings":
+			{
+				"buffer_size": 517,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/web/JUREXLAW/app/css/variable/_element.styl",
+			"settings":
+			{
+				"buffer_size": 1412,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/web/JUREXLAW/app/css/include/_personal.styl",
+			"settings":
+			{
+				"buffer_size": 302,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/web/JUREXLAW/app/css/include/_footer.styl",
+			"settings":
+			{
+				"buffer_size": 814,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/web/JUREXLAW/app/css/icon/style.styl",
+			"settings":
+			{
+				"buffer_size": 1304,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/web/JUREXLAW/app/js/script.js",
+			"settings":
+			{
+				"buffer_size": 6786,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/web/JUREXLAW/app/html/block_html/elements/_header.jade",
+			"settings":
+			{
+				"buffer_size": 627,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/web/JUREXLAW/app/css/icon/style.css",
+			"settings":
+			{
+				"buffer_size": 4479,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/web/JUREXLAW/file.json",
+			"settings":
+			{
+				"buffer_size": 348,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/web/JUREXLAW/app/css/include/_service-value.styl",
+			"settings":
+			{
+				"buffer_size": 437,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime tuto",
+				"Sublime Tutor: Start"
+			],
+			[
+				"sublimegit",
+				"SublimeGit: Version"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"fine key ",
+				"FindKeyConflicts: All Key Maps to Quick Panel"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"install packae",
+				"Package Control: Install Package"
+			],
+			[
+				"list package",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"synta",
+				"Set Syntax: Diff"
+			],
+			[
+				"git diff",
+				"Git: Diff"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"pretty ",
+				"Pretty Ruby: Format"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"packageinstal",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax git diff",
+				"Set Syntax: SublimeGit Diff"
+			],
+			[
+				"syntax",
+				"Set Syntax: Diff"
+			],
+			[
+				"git b lame",
+				"Git: Blame"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"removepac",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"package remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"syntax css",
+				"Set Syntax: CSS"
+			],
+			[
+				"git blam",
+				"Git: Blame"
+			],
+			[
+				"syntax diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"syntax ",
+				"Set Syntax: Diff"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax:diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"syntax git",
+				"Set Syntax: SublimeGit Diff"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"gst",
+				"Git: Status"
+			]
+		],
+		"width": 510.0
+	},
+	"console":
+	{
+		"height": 263.0,
+		"history":
+		[
+			"sublime.log_commands(True)",
+			"subprocess.Popen([executable_path, './Tutorial'], cwd='/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/')",
+			"subprocess.Popen([executable_path, './'], cwd='/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/')",
+			"subprocess([executable_path, './'], cwd='/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/')",
+			"executable_path",
+			"executable_path = app_path+\"Contents/SharedSupport/bin/subl\"",
+			"app_path = executable_path[:executable_path.rfind(\".app/\")+5]",
+			"executable_path = sublime.executable_path()",
+			"subprocess.Popen(['pwd'])",
+			"import subprocess",
+			"sublime.active_window().run_command(\"sublime_tutor_new_window\")",
+			"sublime.active_window().run_command",
+			"sublime.active_window()",
+			"sublime.executable_path()",
+			"subliem.executable_path()",
+			"executable_path[:executable_path.rfind(\".app/\")+5] + \"Contents/SharedSupport/bin/subl\"",
+			"executable_path[:executable_path.rfind(\".app/\")+5]",
+			"executable_path = sublime.executable_path()",
+			"sublime.executable_path().executable_path[:executable_path.rfind(\".app/\")+5]",
+			"executable_path[:executable_path.rfind(\".app/\")+5]",
+			"sublime.executable_path()",
+			"sublime.log_commands(False)",
+			"sublime.open_project",
+			"window.open_project",
+			"window.open_file",
+			"view.run_command(\"select_by_index\")",
+			"window.run_command(\"select_by_index\")",
+			"sublime.select_by_index",
+			"view.run_command(\"example\")",
+			"sublime.run_command(\"example\")",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/web/JUREXLAW",
+		"/C/web/JUREXLAW/app",
+		"/C/web/JUREXLAW/app/css",
+		"/C/web/JUREXLAW/app/css/icon",
+		"/C/web/JUREXLAW/app/css/include",
+		"/C/web/JUREXLAW/app/css/variable",
+		"/C/web/JUREXLAW/app/html",
+		"/C/web/JUREXLAW/app/html/block_html",
+		"/C/web/JUREXLAW/app/html/block_html/elements",
+		"/C/web/JUREXLAW/app/js"
+	],
+	"file_history":
+	[
+		"/C/web/JUREXLAW/app/css/include/_contact.styl",
+		"/C/web/JUREXLAW/app/css/include/_get-order.styl",
+		"/C/web/JUREXLAW/app/css/variable/_constant.styl",
+		"/C/web/JUREXLAW/app/css/include/_relax.styl",
+		"/C/web/JUREXLAW/app/css/include/_main-service.styl",
+		"/C/web/JUREXLAW/app/css/style.styl",
+		"/C/web/JUREXLAW/app/html/index.jade",
+		"/C/web/JUREXLAW/app/css/include/_header.styl",
+		"/C/web/JUREXLAW/app/css/variable/_fonts.styl",
+		"/C/web/JUREXLAW/app/css/include/_slider.styl",
+		"/C/web/JUREXLAW/app/page.html",
+		"/C/web/JUREXLAW/app/html/block_html/elements/_service-value.jade",
+		"/C/web/JUREXLAW/app/css/icon/style.styl",
+		"/C/Users/fantzer/AppData/Local/Temp/Rar$DIa0.456/styles.css",
+		"/C/web/JUREXLAW/app/html/page.jade",
+		"/C/web/JUREXLAW/app/css/include/_list-service.styl",
+		"/C/web/JUREXLAW/app/html/block_html/elements/_list-service.jade",
+		"/C/web/JUREXLAW/file.json",
+		"/C/Users/fantzer/AppData/Local/Temp/scp48879/public_html/templates/jac-lmr/css/css3.css",
+		"/C/web/JUREXLAW/app/css/variable/_element.styl",
+		"/C/web/JUREXLAW/app/css/include/_breadcrumbs.styl",
+		"/C/web/JUREXLAW/app/html/block_html/elements/_breadcrumbs.jade",
+		"/C/web/JUREXLAW/gulpfile.js",
+		"/C/web/JUREXLAW/app/css/include/_personal.styl",
+		"/C/web/JUREXLAW/app/html/block_html/elements/_personal.jade",
+		"/C/Web/SOLAR/gulpfile.js",
+		"/C/web/JUREXLAW/app/html/block_html/elements/_const.jade",
+		"/C/web/JUREXLAW/app/js/script.js",
+		"/C/Web/SOLAR/file.json",
+		"/C/web/JUREXLAW/app/html/block_html/elements/_contact.jade",
+		"/C/web/JUREXLAW/app/html/block_html/elements/_relax.jade",
+		"/C/Web/STEND/frontend/gulpfile.js",
+		"/C/web/JUREXLAW/app/css/include/_footer.styl",
+		"/C/web/JUREXLAW/app/html/block_html/elements/_header.jade",
+		"/C/web/JUREXLAW/app/html/block_html/elements/_footer.jade",
+		"/C/web/JUREXLAW/app/html/block_html/_script.jade",
+		"/C/web/JUREXLAW/app/html/block_html/elements/_slider.jade",
+		"/C/Web/JUREXLAW/ftp.json",
+		"/C/web/JUREXLAW/app/html/block_html/elements/_get-order.jade",
+		"/C/web/JUREXLAW/app/css/include/_clients.styl",
+		"/C/web/JUREXLAW/app/html/block_html/elements/_clients.jade",
+		"/C/web/JUREXLAW/app/html/block_html/elements/_main-service.jade",
+		"/C/web/JUREXLAW/app/css/variable/_default.styl",
+		"/C/web/JUREXLAW/app/html/block_html/_style.jade",
+		"/C/Users/fantzer/AppData/Local/Temp/scp25510/httpdocs/wp-content/themes/consalting/single_about.php",
+		"/C/Users/fantzer/AppData/Local/Temp/Rar$DIa0.571/flaticon.css",
+		"/C/web/JUREXLAW/app/css/variable/_function.styl",
+		"/C/Users/fantzer/AppData/Local/Temp/Rar$DIa0.728/flaticon.css",
+		"/C/Web/SOLAR/app/css/style.styl",
+		"/C/Users/fantzer/AppData/Local/Temp/scp11613/cgiku.ru/www/wp-content/themes/AAK/functions.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp05256/cgiku.ru/www/wp-content/themes/AAK/single.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp05237/cgiku.ru/www/wp-content/themes/AAK/page_kadastr.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp14183/cgiku.ru/www/wp-content/themes/AAK/page_kadastr.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp12769/cgiku.ru/www/wp-content/themes/AAK/page-publik.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp11057/cgiku.ru/www/wp-content/themes/AAK/page.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp37916/httpdocs/local/components/kennet/x.cabinet/templates/x.courses/template.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp06465/cgiku.ru/www/wp-content/themes/AAK/single.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp27529/cgiku.ru/www/wp-content/themes/AAK/functions.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp36355/httpdocs/cabinet/courses.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp16481/cgiku.ru/www/wp-content/themes/AAK/header.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp35932/httpdocs/cabinet/reviews_12.04.2016_01%3A04%3A23.csv",
+		"/C/web/SOLAR/app/css/style.styl",
+		"/C/web/STEND/frontend/app/css/variable/_fonts.styl",
+		"/C/web/STEND/frontend/app/css/style.styl",
+		"/C/web/SOLAR/app/css/variable/_default.styl",
+		"/C/web/SOLAR/app/css/variable/_element.styl",
+		"/C/web/SOLAR/app/css/variable/_fonts.styl",
+		"/C/web/STEND/frontend/.gitignore",
+		"/C/web/SOLAR/.gitignore",
+		"/C/web/STEND/frontend/gulpfile.js",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-other-service.jade",
+		"/C/web/SOLAR/app/html/syte.jade",
+		"/C/web/SOLAR/app/html/promotion.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_const.jade",
+		"/C/web/SOLAR/app/css/include/_b-kind-site.styl",
+		"/C/web/SOLAR/app/html/block_html/elements/_p-promotion.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-primer-work.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-kind-aplication.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-partners.jade",
+		"/C/web/SOLAR/app/css/variable/_function.styl",
+		"/C/web/SOLAR/app/css/include/_b-specialist.styl",
+		"/C/web/SOLAR/app/css/style.css",
+		"/C/web/SOLAR/app/css/include/_b-kind-aplication.styl",
+		"/C/web/SOLAR/app/css/include/_b-repair.styl",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-repair.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-work.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-form.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-specialist.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-fluid.jade",
+		"/C/web/SOLAR/app/css/include/_b-fluid.styl",
+		"/C/web/SOLAR/app/html/allpage.jade",
+		"/C/web/SOLAR/app/css/variable/_ie.styl",
+		"/C/web/SOLAR/app/js/script.js",
+		"/C/Users/fantzer/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/web/SOLAR/app/html/reanimation.jade",
+		"/C/web/SOLAR/app/css/include/_b-work.styl",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-comment.jade",
+		"/C/web/SOLAR/app/html/articale-case.jade",
+		"/C/web/SOLAR/gulpfile.js",
+		"/C/web/SOLAR/app/css/include/_b-comment.styl",
+		"/C/web/SOLAR/app/css/include/_b-pagination.styl",
+		"/C/web/SOLAR/app/articale-case.html",
+		"/C/web/SOLAR/file.json",
+		"/C/web/SOLAR/app/html/vacancy.jade",
+		"/C/web/SOLAR/dist/css/style.css",
+		"/C/web/SOLAR/app/css/include/_b-galary.styl",
+		"/C/web/SOLAR/app/css/include/_b-contacts.styl",
+		"/C/web/SOLAR/app/css/include/_header.styl",
+		"/C/web/STEND/frontend/file.json",
+		"/C/Web/VEGAN/node_modules/axis/axis/interaction.styl",
+		"/C/Web/VEGAN/node_modules/axis/axis/ui.styl",
+		"/C/web/STEND/frontend/app/css/variable/_function.styl",
+		"/C/Web/VEGAN/node_modules/axis/axis/gradients.styl",
+		"/C/Web/VEGAN/node_modules/axis/axis/tables.styl",
+		"/C/Web/VEGAN/node_modules/axis/axis/utilities.styl",
+		"/C/web/SOLAR/dist/order.html",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-vacancy.jade",
+		"/C/web/SOLAR/app/html/contacts.jade",
+		"/C/web/SOLAR/app/css/include/_b-vacancy.styl",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-contacts.jade",
+		"/C/web/SOLAR/app/css/include/_p-promotion.styl",
+		"/C/web/SOLAR/app/html/consalting.jade",
+		"/C/web/SOLAR/app/contacts.html",
+		"/C/web/SOLAR/app/html/social.jade",
+		"/C/web/SOLAR/app/css/variable/_constant.styl",
+		"/C/Web/STEND/frontend/app/html/allpage.jade",
+		"/C/Web/STEND/frontend/app/css/variable/_element.styl",
+		"/C/web/SOLAR/app/css/include/_b-mark.styl"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"/Users/jai/go/src/github.com/mattermost/platform",
+			"/Users/jai/Workspace/trevo/",
+			"/Users/jai/Workspace/trevo/app/admin",
+			"app/admin",
+			"",
+			"/Users/jai/Workspace/trevo/",
+			"/Users/jai/Workspace/trevo/railsbox",
+			"/Users/jai/Workspace/trevo/",
+			"/Users/jai/Workspace/trevo/app/serializers",
+			"/Users/jai/Workspace/trevo/",
+			"/Users/jai/Workspace/trevo/railsbox/ansible",
+			"/Users/jai/Workspace/market_place_api",
+			"",
+			"/Users/jai/Workspace/trevo/railsbox/",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/db/migrate",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/app/views/scheduled_mails",
+			"",
+			"You might find this helpful:",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/config",
+			"/Users/jai/Workspace/talentpad/app",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/app",
+			"/Users/jai/Workspace/talentpad/public",
+			"/Users/jai/Workspace/talentpad",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad",
+			"",
+			"/Users/jai/Workspace/talentpad/app/",
+			"/Users/jai/Workspace/talentpad/app/assets",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/app",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/app",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/app",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/public",
+			"/Users/jai/Workspace/talentpad/client,-/Users/jai/Workspace/talentpad/client/.tmp/*",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/app",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/client,-/Users/jai/Workspace/talentpad/client/.tmp/*",
+			"/Users/jai/Workspace/talentpad/public",
+			"/Users/jai/Workspace/talentpad/client,-/Users/jai/Workspace/talentpad/client/.tmp/*",
+			"/Users/jai/Workspace/talentpad/client,-/Users/jai/Workspace/talentpad/client/.tmp/",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/public/client",
+			"/Users/jai/Workspace/talentpad/public",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/app",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/public",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/public",
+			"/Users/jai/Workspace/talentpad/client,-/Users/jai/Workspace/talentpad/public",
+			"/Users/jai/Workspace/talentpad/,-/Users/jai/Workspace/talentpad/public",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/client/",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/app/assets/stylesheets/244809",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/client/",
+			"/Users/jai/Workspace/talentpad/client/app/angular",
+			"/Users/jai/Workspace/talentpad/client/angular",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/app",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad",
+			"/Users/jai/Workspace/talentpad_1",
+			"",
+			"*.html",
+			"",
+			"/Users/jai/Workspace/talentpad/public",
+			"",
+			"/Users/jai/Workspace/talentpad/client",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"page",
+			"//",
+			"main-service_text",
+			"icon",
+			"line-height: 1;",
+			"tnormal",
+			"//",
+			".header-sub",
+			"5",
+			"10",
+			"service-value",
+			" {}",
+			"breadcrumbs",
+			"personal",
+			"contact",
+			"==",
+			"index",
+			"contact",
+			"bradcrambs",
+			"obj",
+			"page",
+			"bradcrambs",
+			"file",
+			"personal",
+			"index",
+			"contact",
+			"relax",
+			"clients",
+			"	",
+			"header",
+			"/img",
+			"/",
+			"ООО",
+			"..",
+			"relax",
+			"get-order",
+			"main-service",
+			"инцидентами",
+			"./",
+			";",
+			":",
+			"//",
+			".main-cont",
+			"1200px",
+			".planet-audit",
+			".rows",
+			"+below(1378px)",
+			"1320",
+			"lg",
+			"owl.carousel",
+			";",
+			":",
+			"    ",
+			"promotion-slider",
+			"7",
+			"$needcat",
+			"needcat",
+			"6",
+			"cat",
+			"6",
+			"15",
+			";",
+			":",
+			"reset-position",
+			"@media",
+			"10",
+			"__sm",
+			" {}",
+			"pagination",
+			".comment__title",
+			":",
+			";",
+			":",
+			"  ",
+			"    ",
+			"   ",
+			"  ",
+			"breadcrumb",
+			"      ",
+			"  ",
+			"    ",
+			"  ",
+			"      ",
+			"     ",
+			"    ",
+			"  ",
+			"      ",
+			"     ",
+			"    ",
+			"   ",
+			"  ",
+			"   ",
+			"  ",
+			"hover-underline",
+			"hover",
+			"  ",
+			"    ",
+			"   ",
+			"  ",
+			"768px",
+			" ",
+			"contact",
+			"contac",
+			" {}",
+			"contacts",
+			"galary",
+			"• ",
+			"<li>",
+			"soc",
+			"li",
+			"• ",
+			"peopl",
+			"webshot",
+			"soalr studio",
+			":",
+			"  ",
+			"    ",
+			"   ",
+			"  ",
+			"ngle",
+			"tr",
+			"tring",
+			"'numb'",
+			"'title'",
+			"button",
+			"category-2",
+			"category-1",
+			"  galary-el"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"Tutor",
+			"Sublime",
+			"Goto Anything",
+			"recipient",
+			"TrevoUtilities",
+			"arrived_at_parking",
+			"full_messages.join(',')",
+			"52.74.85.135",
+			"Driver",
+			"driver",
+			"Driver",
+			"driver",
+			"Bus",
+			"bus",
+			"Bus",
+			"bus",
+			"",
+			"'",
+			"I led this project",
+			"You might find this helpful:",
+			":status => false",
+			":status => true",
+			"angulartics",
+			"192.168.33.10",
+			"0.0.0.0",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/web/JUREXLAW/app/html/about.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								463,
+								463
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".jade",
+								"current_syntax": "Jade/Syntaxes/Jade",
+								"enabled": false,
+								"last_updated": 1467552534.17
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 18.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "/C/web/JUREXLAW/app/css/variable/_element.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1412,
+						"regions":
+						{
+							"gutter_color_1033":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										1047,
+										1064
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1047":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										1047,
+										1064
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1103":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										1177,
+										1199
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1135":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										1177,
+										1199
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1137":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										1177,
+										1199
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1163":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										1177,
+										1199
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1177":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										1177,
+										1199
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1198":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										1336,
+										1348
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1220":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										1358,
+										1385
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1246":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										1320,
+										1335
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1262":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										1336,
+										1348
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1278":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										1320,
+										1335
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1280":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										1320,
+										1335
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1284":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										1358,
+										1385
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1294":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										1336,
+										1348
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1296":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										1336,
+										1348
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1306":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										1320,
+										1335
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1316":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										1358,
+										1385
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1318":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										1358,
+										1385
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1320":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										1320,
+										1335
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1322":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										1336,
+										1348
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1336":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										1336,
+										1348
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1344":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										1358,
+										1385
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1358":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										1358,
+										1385
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_195":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										195,
+										207
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_259":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										323,
+										332
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_285":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										349,
+										361
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_323":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										323,
+										332
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_325":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										323,
+										332
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_333":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										333,
+										348
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_335":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										333,
+										348
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_349":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										349,
+										361
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_351":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										349,
+										361
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_361":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										333,
+										348
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_371":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										371,
+										398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_373":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										371,
+										398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_377":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										349,
+										361
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_393":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										457,
+										484
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_399":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										399,
+										414
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_401":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										399,
+										414
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_415":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										415,
+										436
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_417":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										415,
+										436
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_421":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										485,
+										498
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_427":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										399,
+										414
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_437":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										437,
+										447
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_439":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										437,
+										447
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_443":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										415,
+										436
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_457":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										457,
+										484
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_459":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										457,
+										484
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_465":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										437,
+										447
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_485":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										485,
+										498
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_487":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										485,
+										498
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_513":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										485,
+										498
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_557":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										695,
+										707
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_653":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										695,
+										707
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_655":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										695,
+										707
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_681":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										695,
+										707
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_695":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										695,
+										707
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_909":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										1047,
+										1064
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_973":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										1047,
+										1064
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".styl",
+								"current_syntax": "Stylus/Stylus",
+								"enabled": false,
+								"last_updated": 1467552534.17
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 192.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/web/JUREXLAW/app/css/include/_personal.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 302,
+						"regions":
+						{
+							"gutter_color_133":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										161,
+										179
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_161":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										161,
+										179
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_56":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										84,
+										106
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_84":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										84,
+										106
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								246,
+								246
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".styl",
+								"current_syntax": "Stylus/Stylus",
+								"enabled": false,
+								"last_updated": 1467552534.17
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/web/JUREXLAW/app/css/include/_footer.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 814,
+						"regions":
+						{
+							"gutter_color_15":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										15,
+										32
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_265":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										326,
+										338
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_326":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										326,
+										338
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_379":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										440,
+										452
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_440":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										440,
+										452
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_526":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										587,
+										603
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_557":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										618,
+										643
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_587":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										587,
+										603
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_614":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										675,
+										694
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_618":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										618,
+										643
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_661":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										722,
+										762
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_675":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										675,
+										694
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_720":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										781,
+										797
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_722":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										722,
+										762
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_737":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										798,
+										812
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_781":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										781,
+										797
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_798":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										798,
+										812
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								121,
+								121
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".styl",
+								"current_syntax": "Stylus/Stylus",
+								"enabled": false,
+								"last_updated": 1467552534.17
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/web/JUREXLAW/app/css/icon/style.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1304,
+						"regions":
+						{
+							"gutter_color_116":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										116,
+										149
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_150":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										150,
+										184
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_185":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										185,
+										219
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_21":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										21,
+										54
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_274":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/gray.png",
+								"regions":
+								[
+									[
+										274,
+										311
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_367":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										367,
+										400
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_401":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										401,
+										433
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_434":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										434,
+										467
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_468":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										468,
+										502
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_503":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										503,
+										537
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_608":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/gray.png",
+								"regions":
+								[
+									[
+										608,
+										645
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_83":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										83,
+										115
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								568,
+								568
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".styl",
+								"current_syntax": "Stylus/Stylus",
+								"enabled": false,
+								"last_updated": 1467552534.17
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "/C/web/JUREXLAW/app/js/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								901,
+								901
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1247,
+										1248
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										888,
+										889
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1467552534.17
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 407.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "/C/web/JUREXLAW/app/html/block_html/elements/_header.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 627,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								484,
+								484
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".jade",
+								"current_syntax": "Jade/Syntaxes/Jade",
+								"enabled": false,
+								"last_updated": 1467552534.17
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/web/JUREXLAW/app/css/icon/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4479,
+						"regions":
+						{
+							"gutter_color_116":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										116,
+										149
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_150":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										150,
+										184
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_185":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										185,
+										219
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_21":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										21,
+										54
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_274":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/gray.png",
+								"regions":
+								[
+									[
+										274,
+										311
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_292":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/gray.png",
+								"regions":
+								[
+									[
+										292,
+										329
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_366":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										366,
+										399
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_384":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										384,
+										417
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_400":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										400,
+										432
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_418":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										418,
+										450
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_433":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										433,
+										466
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_451":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										451,
+										484
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_467":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										467,
+										501
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_485":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										485,
+										519
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_502":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										502,
+										536
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_520":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										520,
+										554
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_609":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/gray.png",
+								"regions":
+								[
+									[
+										609,
+										646
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_627":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/gray.png",
+								"regions":
+								[
+									[
+										627,
+										664
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_83":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										83,
+										115
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"allowed_colors":
+								[
+									"hsla",
+									"hex_compressed",
+									"hsl",
+									"webcolors",
+									"rgb",
+									"hex",
+									"rgba"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".css",
+								"current_syntax": "CSS/CSS",
+								"enabled": true,
+								"last_updated": 1467552534.17,
+								"scan_completion_scopes":
+								[
+								],
+								"scan_scopes":
+								[
+									"meta.property-value.css -comment -string",
+									"meta.value.css -comment -string",
+									"meta.tag.inline.any.html string.quoted",
+									"meta.tag.any.html meta.attribute-with-value.style.html"
+								],
+								"use_hex_argb": false
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "/C/web/JUREXLAW/file.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								306,
+								306
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".json",
+								"current_syntax": "JavaScript/JSON",
+								"enabled": false,
+								"last_updated": 1467552534.17
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/web/JUREXLAW/app/css/include/_service-value.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 437,
+						"regions":
+						{
+							"gutter_color_107":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										388,
+										388
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_15":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										15,
+										37
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_151":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										169,
+										198
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_169":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										169,
+										198
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".styl",
+								"current_syntax": "Stylus/Stylus",
+								"enabled": false,
+								"last_updated": 1467552534.17
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				2
+			],
+			[
+				2,
+				0,
+				3,
+				3
+			],
+			[
+				0,
+				1,
+				1,
+				3
+			],
+			[
+				1,
+				2,
+				2,
+				3
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.333333333333,
+			0.666666666667,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.447916666667,
+			0.451041666667,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "jurlax.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"file",
+				"file.json"
+			],
+			[
+				"_footer",
+				"app\\css\\include\\_footer.styl"
+			],
+			[
+				"_per",
+				"app\\css\\include\\_personal.styl"
+			],
+			[
+				"_con",
+				"app\\css\\include\\_contact.styl"
+			],
+			[
+				"_rels",
+				"app\\css\\include\\_relax.styl"
+			],
+			[
+				"_get-o",
+				"app\\css\\include\\_get-order.styl"
+			],
+			[
+				"_ma",
+				"app\\css\\include\\_main-service.styl"
+			],
+			[
+				"index",
+				"app\\html\\index.jade"
+			],
+			[
+				"_el",
+				"app\\css\\variable\\_element.styl"
+			],
+			[
+				"_sl",
+				"app\\css\\include\\_slider.styl"
+			],
+			[
+				"script",
+				"app\\js\\script.js"
+			],
+			[
+				"_font",
+				"app\\css\\variable\\_fonts.styl"
+			],
+			[
+				"_header",
+				"app\\html\\block_html\\elements\\_header.jade"
+			],
+			[
+				"header",
+				"app\\css\\include\\_header.styl"
+			],
+			[
+				"_list",
+				"app\\css\\include\\_list-service.styl"
+			],
+			[
+				"style",
+				"app\\css\\style.styl"
+			],
+			[
+				"_servi",
+				"app\\css\\include\\_service-value.styl"
+			],
+			[
+				"page",
+				"app\\page.html"
+			],
+			[
+				"_ser",
+				"app\\html\\block_html\\elements\\_service-value.jade"
+			],
+			[
+				"_ele",
+				"app\\css\\variable\\_element.styl"
+			],
+			[
+				"_br",
+				"app\\css\\include\\_breadcrumbs.styl"
+			],
+			[
+				"_bre",
+				"app\\html\\block_html\\elements\\_breadcrumbs.jade"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"_rel",
+				"app\\html\\block_html\\elements\\_relax.jade"
+			],
+			[
+				"_pers",
+				"app\\css\\include\\_personal.styl"
+			],
+			[
+				"_elem",
+				"app\\css\\variable\\_element.styl"
+			],
+			[
+				"_conta",
+				"app\\css\\include\\_contact.styl"
+			],
+			[
+				"_co",
+				"app\\css\\variable\\_constant.styl"
+			],
+			[
+				"_relax",
+				"app\\html\\block_html\\elements\\_relax.jade"
+			],
+			[
+				"sty",
+				"app\\css\\style.styl"
+			],
+			[
+				"_foote",
+				"app\\css\\include\\_footer.styl"
+			],
+			[
+				"_fo",
+				"app\\html\\block_html\\elements\\_footer.jade"
+			],
+			[
+				"_script",
+				"app\\html\\block_html\\_script.jade"
+			],
+			[
+				"_s",
+				"app\\html\\block_html\\elements\\_slider.jade"
+			],
+			[
+				"_he",
+				"app\\css\\include\\_header.styl"
+			],
+			[
+				"scrip",
+				"app\\js\\script.js"
+			],
+			[
+				"slider",
+				"app\\html\\block_html\\elements\\_slider.jade"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"_head",
+				"app\\html\\block_html\\elements\\_header.jade"
+			],
+			[
+				"_relsx",
+				"app\\css\\include\\_relax.styl"
+			],
+			[
+				"_cli",
+				"app\\css\\include\\_clients.styl"
+			],
+			[
+				"_clien",
+				"app\\css\\include\\_clients.styl"
+			],
+			[
+				"styl",
+				"app\\css\\style.styl"
+			],
+			[
+				"_get-",
+				"app\\css\\include\\_get-order.styl"
+			],
+			[
+				"_get",
+				"app\\html\\block_html\\elements\\_get-order.jade"
+			],
+			[
+				"_main",
+				"app\\css\\include\\_main-service.styl"
+			],
+			[
+				"_style",
+				"app\\html\\block_html\\_style.jade"
+			],
+			[
+				"_const",
+				"app\\css\\variable\\_constant.styl"
+			],
+			[
+				"_sli",
+				"app\\html\\block_html\\elements\\_slider.jade"
+			],
+			[
+				"_scr",
+				"app\\html\\block_html\\_script.jade"
+			],
+			[
+				"script.js",
+				"app\\js\\script.js"
+			],
+			[
+				"_slid",
+				"app\\html\\block_html\\elements\\_slider.jade"
+			],
+			[
+				"inde",
+				"app\\html\\index.jade"
+			],
+			[
+				"_heade",
+				"app\\html\\block_html\\elements\\_header.jade"
+			],
+			[
+				"_p-promo",
+				"SOLAR\\app\\css\\include\\_p-promotion.styl"
+			],
+			[
+				"_b-work",
+				"SOLAR\\app\\css\\include\\_b-work.styl"
+			],
+			[
+				"_b-ar",
+				"app\\css\\include\\_b-articale-case.styl"
+			],
+			[
+				"_b-othe",
+				"app\\html\\block_html\\elements\\_b-other-service.jade"
+			],
+			[
+				"_kind-sjade",
+				"app\\html\\block_html\\elements\\_b-kind-site.jade"
+			],
+			[
+				"_kind",
+				"app\\css\\include\\_b-kind-site.styl"
+			],
+			[
+				"syte",
+				"app\\html\\syte.jade"
+			],
+			[
+				"_kindjade",
+				"app\\html\\block_html\\elements\\_b-kind-aplication.jade"
+			],
+			[
+				"_b-s",
+				"app\\css\\include\\_b-specialist.styl"
+			],
+			[
+				"_funt",
+				"app\\css\\variable\\_function.styl"
+			],
+			[
+				"_b-par",
+				"SOLAR\\app\\html\\block_html\\elements\\_b-partners.jade"
+			],
+			[
+				"_b-kind",
+				"SOLAR\\app\\html\\block_html\\elements\\_b-kind-aplication.jade"
+			],
+			[
+				"_b-kin",
+				"SOLAR\\app\\css\\include\\_b-kind-aplication.styl"
+			],
+			[
+				"_b-form",
+				"SOLAR\\app\\html\\block_html\\elements\\_b-form.jade"
+			],
+			[
+				"_b-sp",
+				"SOLAR\\app\\html\\block_html\\elements\\_b-specialist.jade"
+			],
+			[
+				"_b-flui",
+				"SOLAR\\app\\html\\block_html\\elements\\_b-fluid.jade"
+			],
+			[
+				"pro",
+				"SOLAR\\app\\html\\promotion.jade"
+			],
+			[
+				"_b-pa",
+				"SOLAR\\app\\css\\include\\_b-paralax.styl"
+			],
+			[
+				"scr",
+				"SOLAR\\app\\js\\script.js"
+			],
+			[
+				"_b-repair",
+				"SOLAR\\app\\css\\include\\_b-repair.styl"
+			],
+			[
+				"rea",
+				"SOLAR\\app\\html\\reanimation.jade"
+			],
+			[
+				"all",
+				"SOLAR\\app\\html\\allpage.jade"
+			],
+			[
+				"artic",
+				"SOLAR\\app\\articale-case.html"
+			],
+			[
+				"_b-comm",
+				"SOLAR\\app\\css\\include\\_b-comment.styl"
+			],
+			[
+				"_b-commne",
+				"SOLAR\\app\\html\\block_html\\elements\\_b-comment.jade"
+			],
+			[
+				"_pag",
+				"SOLAR\\app\\css\\include\\_b-pagination.styl"
+			],
+			[
+				"_b-gal",
+				"app\\css\\include\\_b-galary.styl"
+			],
+			[
+				"_vaca",
+				"app\\css\\include\\_b-vacancy.styl"
+			],
+			[
+				"_b-vaca",
+				"app\\html\\block_html\\elements\\_b-vacancy.jade"
+			],
+			[
+				"_b-con",
+				"app\\css\\include\\_b-contacts.styl"
+			],
+			[
+				"_b-cont",
+				"app\\html\\block_html\\elements\\_b-contacts.jade"
+			],
+			[
+				"cont",
+				"app\\contacts.html"
+			],
+			[
+				"_b-ot",
+				"app\\html\\block_html\\elements\\_b-other-service.jade"
+			],
+			[
+				"const",
+				"app\\css\\variable\\_constant.styl"
+			],
+			[
+				"ele",
+				"app\\css\\variable\\_element.styl"
+			],
+			[
+				"_p-",
+				"app\\css\\include\\_p-promotion.styl"
+			],
+			[
+				"_p",
+				"app\\html\\block_html\\elements\\_p-promotion.jade"
+			],
+			[
+				"_p_pro",
+				"app\\html\\block_html\\elements\\_p-promotion.jade"
+			],
+			[
+				"promo",
+				"app\\html\\promotion.jade"
+			],
+			[
+				"_b-pag",
+				"app\\css\\include\\_b-pagination.styl"
+			],
+			[
+				"_b-mark",
+				"app\\css\\include\\_b-mark.styl"
+			],
+			[
+				"_b-m",
+				"app\\html\\block_html\\elements\\_b-mark.jade"
+			],
+			[
+				"allpa",
+				"app\\html\\allpage.jade"
+			],
+			[
+				"_gala",
+				"app\\html\\block_html\\elements\\_b-galary.jade"
+			],
+			[
+				"b-gal",
+				"app\\css\\include\\_b-galary.styl"
+			],
+			[
+				"_sty",
+				"app\\html\\block_html\\_style.jade"
+			],
+			[
+				"_hea",
+				"app\\html\\block_html\\elements\\_header.jade"
+			],
+			[
+				"func",
+				"app\\css\\variable\\_function.styl"
+			],
+			[
+				"_hear",
+				"app\\css\\include\\_header.styl"
+			],
+			[
+				"script.jade",
+				"app\\html\\block_html\\_script.jade"
+			],
+			[
+				"_b-pra",
+				"app\\html\\block_html\\elements\\_b-paralax.jade"
+			],
+			[
+				"port",
+				"app\\portfolio.html"
+			],
+			[
+				"_b-gala",
+				"app\\html\\block_html\\elements\\_b-galary.jade"
+			],
+			[
+				"_b-art",
+				"app\\css\\include\\_b-articale-case.styl"
+			],
+			[
+				"_b-form__",
+				"app\\html\\block_html\\elements\\_b-form__light.jade"
+			],
+			[
+				"arti",
+				"app\\html\\articale-case.jade"
+			],
+			[
+				"art",
+				"app\\html\\articale-case.jade"
+			],
+			[
+				"_b-pagin",
+				"app\\css\\include\\_b-pagination.styl"
+			],
+			[
+				"_b-pagi",
+				"app\\html\\block_html\\elements\\_b-pagination.jade"
+			],
+			[
+				"_b-ma",
+				"app\\css\\include\\_b-mark.styl"
+			],
+			[
+				"_b-order",
+				"app\\css\\include\\_b-order.styl"
+			],
+			[
+				"_b-for",
+				"app\\html\\block_html\\elements\\_b-form.jade"
+			],
+			[
+				"_b-orde",
+				"app\\html\\block_html\\elements\\_b-order.jade"
+			],
+			[
+				"_b-or",
+				"app\\css\\include\\_b-other-service.styl"
+			],
+			[
+				"_b-repa",
+				"app\\css\\include\\_b-repair.styl"
+			],
+			[
+				"_b-rea",
+				"app\\html\\block_html\\elements\\_b-repair.jade"
+			],
+			[
+				"_b-re",
+				"app\\css\\include\\_b-repair.styl"
+			],
+			[
+				"_b-wor",
+				"app\\html\\block_html\\elements\\_b-work.jade"
+			],
+			[
+				"_b-fl",
+				"app\\css\\include\\_b-fluid.styl"
+			],
+			[
+				"_b-kind-",
+				"app\\css\\include\\_b-kind-site.styl"
+			],
+			[
+				"_b-kind-si",
+				"app\\html\\block_html\\elements\\_b-kind-site.jade"
+			],
+			[
+				"aplica",
+				"app\\html\\aplication.jade"
+			],
+			[
+				"_b-f",
+				"app\\html\\block_html\\elements\\_b-fluid.jade"
+			],
+			[
+				"_b-part",
+				"app\\css\\include\\_b-partners.styl"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Web\\SOLAR\\solar.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 182.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"section--red",
+				"section--red"
+			],
+			[
+				"promotion-slider__el",
+				"promotion-slider__el"
+			],
+			[
+				"",
+				"bar1"
+			]
+		],
+		"width": 631.0
+	},
+	"selected_group": 2,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

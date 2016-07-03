@@ -8,10 +8,16 @@
 		"contact":"contact",
 		"breadcrumbs":"breadcrumbs",
 		"service-value":"service-value",
-		"list-service":"list-service"
+		"list-service":"list-service",
+		"service":"service",
+		"price":"price"
 	},
 	"page":{
 		"index":"index",
-		"page":"page"
+		"page":"page",
+		"about":"about",
+		"service":"service",
+		"contact":"contact",
+		"price":"price"
 	}
 }

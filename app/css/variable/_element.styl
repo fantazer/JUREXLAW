@@ -1,3 +1,6 @@
+h1
+	+below(768px)
+		font-size 24px
 .title
 	up()
 	color dark
@@ -99,4 +102,13 @@ button
 		background darken(red,10)
 	form
 		display block 
-		
+
+table
+	table(true,true)
+.small-only
+	+below(768px)
+		display table
+	display none
+.large-only
+	+below(768px)
+		display none
