@@ -200,7 +200,7 @@ textarea {
   color: #fff;
 }
 
-.btn {
+.btn,.wpcf7-submit {
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 20px;
@@ -210,17 +210,22 @@ textarea {
   transition: all 0.4s;
 }
 
-.btn--md {
+.btn--md,.wpcf7-submit {
   font-size: 20px;
   padding: 10px 30px;
 }
 
-.btn--red {
+.btn--sm {
+  font-size: 12px;
+  padding: 10px 20px;
+}
+
+.btn--red,.wpcf7-submit {
   background: #ee2560;
   color: #fff;
 }
 
-.btn--red:hover {
+.btn--red:hover,.wpcf7-submit:hover {
   background: #d01048;
 }
 
@@ -291,6 +296,100 @@ button:hover {
 
 button form {
   display: block;
+}
+
+table {
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin-bottom: 18px;
+  border: 1px solid #ddd;
+  border-collapse: separate;
+  *border-collapse: collapsed;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+table th,table td {
+  padding: 8px;
+  line-height: 18px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+table th {
+  font-weight: bold;
+}
+
+table thead th {
+  vertical-align: bottom;
+}
+
+table thead:first-child tr th,table thead:first-child tr td {
+  border-top: 0;
+}
+
+table tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+
+table th + th,table td + td,table th + td,table td + th {
+  border-left: 1px solid #ddd;
+}
+
+table thead:first-child tr:first-child th,table tbody:first-child tr:first-child th,table tbody:first-child tr:first-child td {
+  border-top: 0;
+}
+
+table thead:first-child tr:first-child th:first-child,table tbody:first-child tr:first-child td:first-child {
+  -webkit-border-radius: 4px 0 0 0;
+  border-radius: 4px 0 0 0;
+}
+
+table thead:first-child tr:first-child th:last-child,table tbody:first-child tr:first-child td:last-child {
+  -webkit-border-radius: 0 4px 0 0;
+  border-radius: 0 4px 0 0;
+}
+
+table thead:last-child tr:last-child th:first-child,table tbody:last-child tr:last-child td:first-child {
+  -webkit-border-radius: 0 0 0 4px;
+  border-radius: 0 0 0 4px;
+}
+
+table thead:last-child tr:last-child th:last-child,table tbody:last-child tr:last-child td:last-child {
+  -webkit-border-radius: 0 0 4px 0;
+  border-radius: 0 0 4px 0;
+}
+
+table tbody tr:nth-child(odd) td,table tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+
+table tbody tr:hover td,table tbody tr:hover th {
+  background-color: #f5f5f5;
+}
+
+.small-only {
+  display: none;
+}
+
+.wpcf7-submit {
+  widht: auto;
+}
+
+#arrow-top {
+  bottom: 20px;
+  right: 20px;
+  background: #ee2560;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  opacity: 0.7;
+  display: none;
 }/* -------------- style for fonts --------------*/[class^="flaticon-"]:before,[class*=" flaticon-"]:before,[class^="flaticon-"]:after,[class*=" flaticon-"]:after {
   font-family: Flaticon;
   font-size: 20px;
@@ -313,7 +412,7 @@ button form {
   content: "\f103";
 }/* -------------- style basic --------------*/body {
   font-size: 14px;
-  font-family: PT SANS;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .main-cont {
@@ -341,7 +440,6 @@ button form {
 }
 
 .content-wraper {
-  margin-bottom: 30px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -354,6 +452,10 @@ button form {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -362,10 +464,22 @@ button form {
 
 .content {
   width: 68%;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
 }
 
 .toolbar {
   width: 26%;
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.map {
+  margin-top: -40px;
 }/* -------------- style for header --------------*/.section__breadcrumbs {
   background: #f4f4f4;
   padding: 30px 0px;
@@ -702,7 +816,6 @@ button form {
 
 .header-sub__el {
   display: block;
-  white-space: nowrap;
   padding: 10px;
   width: 200px;
   border-bottom: 1px solid #dbdbdb;
@@ -741,6 +854,37 @@ button form {
   padding-left: 20px;
 }
 
+.list-service__el {
+  margin-bottom: 20px;
+  padding: 25px 25px 15px 25px;
+  border: 1px solid #f4f4f4;
+}
+
+.list-service__toggle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f4f4f4;
+  padding: 10px 30px;
+}
+
+.list-service__toggle:hover {
+  cursor: pointer;
+}
+
+.list-service__toggle .title {
+  margin-bottom: 0;
+}
+
 .main-service {
   display: -webkit-box;
   display: -webkit-flex;
@@ -757,6 +901,10 @@ button form {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 .main-service .main-service__el:nth-child(1) .main-service_link {
@@ -843,6 +991,21 @@ button form {
 .personal__text {
   text-align: center;
   padding: 20px 10px;
+}
+
+.question {
+  margin-top: 40px;
+}
+
+.question__el {
+  padding: 20px;
+  border: 1px solid #f4f4f4;
+  margin-bottom: 20px;
+}
+
+.question__more {
+  text-transform: uppercase;
+  color: #ee2560;
 }
 
 .relax {
@@ -953,6 +1116,40 @@ button form {
   text-align: center;
 }
 
+.service {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.service__info {
+  width: 60%;
+}
+
+.service__item {
+  width: 35%;
+}
+
+.section__service {
+  padding: 15px 0 30px 0;
+}
+
+.section__service:first-child {
+  margin-top: -30px;
+}
+
 .slider-main {
   width: 100%;
 }
@@ -1025,6 +1222,24 @@ button form {
   }
 }
 
+@media only screen and (max-width: 968px) {
+  .content {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .toolbar {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
 @media only screen and (max-width: 960px) {
   .header__phone {
     font-size: 16px;
@@ -1036,6 +1251,10 @@ button form {
 }
 
 @media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
   .title__md {
     font-size: 14px;
   }
@@ -1051,6 +1270,14 @@ button form {
   .section .btn {
     width: 100%;
     text-align: center;
+  }
+
+  .small-only {
+    display: table;
+  }
+
+  .large-only {
+    display: none;
   }
 
   .contact__form {
@@ -1136,6 +1363,15 @@ button form {
     width: 100%;
   }
 
+  .list-service__wrap {
+    display: none;
+    margin-bottom: 30px;
+  }
+
+  .list-service {
+    margin-bottom: 20px;
+  }
+
   .main-service__el {
     width: 100%;
     margin-bottom: 10px;
@@ -1170,6 +1406,15 @@ button form {
 
   .relax__img {
     display: none;
+  }
+
+  .service__info {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .service__item {
+    width: 100%;
   }
 
   .slider-main-el {

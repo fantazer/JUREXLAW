@@ -25,6 +25,9 @@ h1
 .btn--md
 	font-size 20px
 	padding 10px 30px
+.btn--sm
+	font-size 12px
+	padding 10px 20px
 .btn--red
 	background red
 	color white
@@ -112,3 +115,19 @@ table
 .large-only
 	+below(768px)
 		display none
+
+.wpcf7-submit
+	@extend .btn
+	@extend .btn--md
+	@extend .btn--red
+	widht auto
+#arrow-top
+	bottom 20px
+	right 20px
+	background red
+	color white
+	up()
+	padding 10px 20px
+	br(4px)
+	opacity .7
+	display none

@@ -10,7 +10,8 @@
 		"service-value":"service-value",
 		"list-service":"list-service",
 		"service":"service",
-		"price":"price"
+		"price":"price",
+		".question":".question"
 	},
 	"page":{
 		"index":"index",
