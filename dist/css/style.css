@@ -255,7 +255,8 @@ li {
 }
 
 strong {
-  color: #000;
+  color: #23282d;
+  font-weight: 600;
 }
 
 .shrink {
@@ -380,7 +381,7 @@ table tbody tr:hover td,table tbody tr:hover th {
 }
 
 #arrow-top {
-  bottom: 20px;
+  bottom: 50px;
   right: 20px;
   background: #ee2560;
   color: #fff;
@@ -480,6 +481,14 @@ table tbody tr:hover td,table tbody tr:hover th {
 
 .map {
   margin-top: -40px;
+}
+
+.ya-share2 {
+  margin-top: 50px;
+}
+
+.star__reting img {
+  display: inline-block !important;
 }/* -------------- style for header --------------*/.section__breadcrumbs {
   background: #f4f4f4;
   padding: 30px 0px;
@@ -901,10 +910,28 @@ table tbody tr:hover td,table tbody tr:hover th {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.main-service .main-service__el {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
 }
 
 .main-service .main-service__el:nth-child(1) .main-service_link {
@@ -1280,6 +1307,10 @@ table tbody tr:hover td,table tbody tr:hover th {
     display: none;
   }
 
+  .ya-share2 {
+    margin-top: 30px;
+  }
+
   .contact__form {
     width: 100%;
   }
@@ -1419,6 +1450,7 @@ table tbody tr:hover td,table tbody tr:hover th {
 
   .slider-main-el {
     background: #08182b;
+    background-image: none !important;
   }
 
   .slider-main__wraper--left {

@@ -106,8 +106,6 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   content: "\6f";
 }
 
-
-
 /* -------------- style for reset --------------*/
 a:hover {
   text-decoration: none;
@@ -256,7 +254,8 @@ li {
   font-size: 16px;
 }
 strong {
-  color: #000;
+  color: #23282d;
+  font-weight: 600;
 }
 @-webkit-keyframes slideInDown {
   from {
@@ -394,7 +393,7 @@ table tbody tr:hover th {
   widht: auto;
 }
 #arrow-top {
-  bottom: 20px;
+  bottom: 50px;
   right: 20px;
   background: #ee2560;
   color: #fff;
@@ -554,6 +553,17 @@ body {
 }
 .map {
   margin-top: -40px;
+}
+.ya-share2 {
+  margin-top: 50px;
+}
+@media only screen and (max-width: 768px) {
+  .ya-share2 {
+    margin-top: 30px;
+  }
+}
+.star__reting img {
+  display: inline-block !important;
 }
 /* -------------- style for header --------------*/
 .section__breadcrumbs {
@@ -1059,10 +1069,27 @@ body {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+.main-service .main-service__el {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
 }
 .main-service .main-service__el:nth-child(1) .main-service_link {
   background: #ee2560;
@@ -1338,6 +1365,7 @@ body {
 @media only screen and (max-width: 768px) {
   .slider-main-el {
     background: #08182b;
+    background-image: none !important;
   }
 }
 .slider-main-el .main-cont {
