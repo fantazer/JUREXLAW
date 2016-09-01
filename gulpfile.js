@@ -300,7 +300,7 @@ gulp.task('img',['imagePng' , 'imageJpg']);
 gulp.task('default',['see','serve'] );
 
 gulp.task('build',function(){
-    runSequence('copy:font','prefix','img','beauty','make')
+    runSequence('copy:font','jade','stylus','prefix','img','beauty','make')
 });
 gulp.task('build-ftp',function(){
   runSequence('copy:font','prefix','img','beauty','make','ftp')

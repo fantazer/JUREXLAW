@@ -21,6 +21,16 @@
 
 $(document).ready(function(){
 
+	$('.table_tarif td').each(function(){
+		if ($(this).text().replace(/(^\s+|\s+$)/g,'')=='+') {
+			$(this).empty();
+			$(this).append('<span class="table_tarif__plus">+</span>');
+		};
+		if ($(this).text().replace(/(^\s+|\s+$)/g,'')=='-' || $(this).text().replace(/(^\s+|\s+$)/g,'')=='—') {
+			$(this).empty();
+			$(this).append('<span class="table_tarif__minus">-</span>');
+		};
+	})
 	//main-slider
 	$(".slider-main").owlCarousel({
   	items : 1,
@@ -93,6 +103,7 @@ if ($(window).width()<=768) {
 
 //responsive table
 $('.table').stacktable();
+$('.table_tarif').stacktable();
 	/* ###### init EasyDropDown style for selects  ######*/
 	/* ###### bower i easydropdown  ######*/
 	/*<select class="dropdown"> add class (dropdown)

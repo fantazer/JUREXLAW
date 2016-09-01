@@ -1,19 +1,31 @@
+.section__personal
+	padding-top 0px
 .personal
 	flex(between)
 	fw()
+	align-items inherit
 .personal__el
 	+below(768px)
+		width 50%
+	+below(480px)
 		width 100%
 	width 24%
 	border 1px solid grey
-//.personal__photo
+	margin-bottom 10px
+.personal__photo
+	height 200px
+	background-size cover
+	width 100%
 .personal__info
 	text-align center
 	background 	white
 	padding 10px	
 .personal__name
+	+below(768px)
+		font-size 16px
+		min-height auto
 	font-size 20px
-	font-weight 	700 	
+	font-weight 700 
 .personal__text
 	text-align center	
-	padding 20px 10px	
+	padding 10px 10px 20px 10px	

@@ -11,7 +11,8 @@
 		"list-service":"list-service",
 		"service":"service",
 		"price":"price",
-		".question":".question"
+		".question":".question",
+		"table_price":"table_price"
 	},
 	"page":{
 		"index":"index",
