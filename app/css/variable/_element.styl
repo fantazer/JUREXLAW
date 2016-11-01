@@ -1,3 +1,5 @@
+body
+	overflow-x hidden
 h1
 	font-size 24px	
 	+below(768px)
@@ -6,6 +8,7 @@ h2,h3,h4,.span_h2
 	font-size 22px!important
 	+below(768px)
 		font-size 18px!important
+
 .title
 	up()
 	color dark
@@ -38,6 +41,11 @@ h2,h3,h4,.span_h2
 	color white
 	&:hover
 		background darken(red,10)
+.btn--green
+	background green
+	color white 
+	&:hover
+		background darken(green,10)
 .btn--red-light
 	border 1px solid red
 	color red
@@ -185,3 +193,60 @@ table
 	up()
 	margin-left 20px
 	font-size 26px
+.stage
+	+below(768px)
+		padding 10px
+	border 1px solid grey
+	padding 20px
+	background #f8f8f8 
+	margin 20px 0
+	h3
+		text-align center
+.stage__wraper
+	fw()
+	flex(between)
+.stage__el
+	+below(768px)
+		width 100%
+	display flex
+	margin-bottom 20px
+	padding 10px
+	width 48%
+.stage__icon
+	+below(768px)
+		margin-right 10px
+	margin-right 20px
+	i
+		&:before
+			font-size 34px
+			color red
+.stage__title
+	font-weight 600
+	font-size 16px
+	margin-bottom 5px 
+.span_h2
+	margin 20px 0
+.slider-thanks--titile
+	text-align center
+	text-transform uppercase
+	padding 20px
+	background grey 
+
+.footer-info
+	+below(768px)
+		display none
+	margin 30px
+	p
+		text-align center
+		font-size 12px
+p,li
+	font-size 16px
+	color black
+	line-height 22px
+
+p,ul
+	margin-bottom 30px
+	
+.ya-share2
+	margin-top 20px !important
+	

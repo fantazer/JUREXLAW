@@ -21,6 +21,7 @@
   "devDependencies": {
     "owl.carousel": "OwlCarousel2#^2.1.5",
     "scrollup": "^2.4.1",
-    "stacktable.js": "^1.0.1"
+    "stacktable.js": "^1.0.1",
+    "fancybox": "^2.1.5"
   }
 }

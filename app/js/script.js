@@ -21,6 +21,9 @@
 
 $(document).ready(function(){
 
+	//init fancybox
+	$(".fancybox").fancybox();
+
 	$('.table_tarif td').each(function(){
 		if ($(this).text().replace(/(^\s+|\s+$)/g,'')=='+') {
 			$(this).empty();
@@ -64,7 +67,30 @@ $(document).ready(function(){
 			  },
  		navText:['<i class="fa fa-arrow-circle-o-left"></i>','<i class="fa fa-arrow-circle-o-right"></i>']
   	}
-  );  
+  ); 
+
+    $(".slider-thanks").owlCarousel({
+    	items:6,
+    	dots: false,
+    	nav:true,
+    	margin:20,
+    	loop:true,
+    	autoplay:true,
+    	responsive : {
+  			 		0:{
+  					 	items : 2
+  				 	},
+  				 	768:{
+  					 	items : 3
+  				 	},
+  				 	960:{
+  					 	items :3
+  				 	},
+  				 	
+  			  },
+   		navText:['<i class="fa fa-arrow-circle-o-left"></i>','<i class="fa fa-arrow-circle-o-right"></i>']
+    	}
+    );  
 	
 	//Animate header
 	var shrinkHeader = 500;

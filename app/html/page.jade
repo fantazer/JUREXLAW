@@ -34,6 +34,61 @@ body
 					li Поездка в налоговый регорган для подачи полного пакета документов на регистрацию ООО;
 					li Получение расписки от инспектора о о полуенных налоговым регорганом документов;
 					li Получение документов по доверенности от заявителя (Устав, Свидетельства ОГРН и ИНН, выписка из ЕГРЮЛ).
+				//stage
+				.stage
+					h3 Этапы нашей работы
+					.stage__wraper
+						.stage__el
+							.stage__icon
+								i.icon.flaticon-handshake
+							.stage__info
+								.stage__title 1. Консультация
+								.stage__text Предоставление информации клиенту по вопросам реализации услуги.
+						.stage__el
+							.stage__icon
+								i.icon.flaticon-conference
+							.stage__info
+								.stage__title 2. Предоставление информации
+								.stage__text Включает в себя заполнение анкеты и передачу  сведений необходимых для оказания услуги
+						.stage__el
+							.stage__icon
+								i.icon.flaticon-clock
+							.stage__info
+								.stage__title 3. Заключение договора
+								.stage__text Двусторонее подписание договора на оказание услуг и внесение предоплаты.
+						.stage__el
+							.stage__icon
+								i.icon.flaticon-contract
+							.stage__info
+								.stage__title 4. Подготовка пакета документов 
+								.stage__text Основной этап оказания услуги при котором формируется пакет документов для подачи в налоговый орган.
+						.stage__el
+							.stage__icon
+								i.icon.flaticon-presentation
+							.stage__info
+								.stage__title 5. Посещение нотариуса
+								.stage__text Нотариальное заверение подписей уполномоченных лиц в нотариальной конторе.
+						.stage__el
+							.stage__icon
+								i.icon.flaticon-bank
+							.stage__info
+								.stage__title 6. Подача документов в ИНФС
+								.stage__text Завершающий этап оказания услуги предполагающий передачу документов в налоговый орган для регистрационных действий.
+						.stage__el
+							.stage__icon
+								i.icon.flaticon-task
+							.stage__info
+								.stage__title 7. Получение документов в ИФНС
+								.stage__text Получение зарегистрированных документов в ИФНС.
+						.stage__el
+							.stage__icon
+								i.icon.flaticon-thumb-up
+							.stage__info
+								.stage__title 8. Передача результата клиенту
+								.stage__text Доставка зарегистрированных документов Заказчику, подписание акта выполненных работ.
+						
+
+
 				p
 					strong 3. Заключительный этап:
 				ul
@@ -57,6 +112,11 @@ body
 					li Информационное письмо с рег номером ФСС;
 					li Договор аренды адреса. Копия свидетельства о праве собственности на помещение/место.
 					li Регистрация ООО под ключ – это создание готовой к работе бизнес структуры со всем необходимым набором документов и инструментов для реализации основных целей и задач компании.
+				.span_h2.slider-thanks--titile Наши благодарности
+				.slider-thanks.owl-carousel
+					- for (var i = 0; i < 6; i++)
+						a(href="img/thanks-1.jpg" rel="group-elemen").fancybox.slider-thanks-el
+							img(src="img/thanks-1.jpg", alt="")
 				a(href="http://r-go.ru/").get__adress
 					i.icon.flaticon-network
 					.get__adress-text Подобрать юридический адрес 
@@ -69,6 +129,11 @@ body
 				//section list-service
 				include block_html/elements/_list-service.jade
 
+				//section section-call
+				include block_html/elements/_section-call.jade
+				
+				//section section-call
+				include block_html/elements/_section-free.jade
 	//section clients
 	include block_html/elements/_contact.jade
 	//section footer

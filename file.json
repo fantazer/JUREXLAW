@@ -12,7 +12,9 @@
 		"service":"service",
 		"price":"price",
 		".question":".question",
-		"table_price":"table_price"
+		"table_price":"table_price",
+		"section-call":"section-call",
+		"section-free":"section-free"
 	},
 	"page":{
 		"index":"index",
