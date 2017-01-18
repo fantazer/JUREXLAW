@@ -4,26 +4,48 @@ a(href="call:123123123").back-call
 	i.icon-whatsapp
 .header
 	.main-cont
-		.header-wraper
+		.header-top
 			a(href="/").header__logo
 				img(src="img/logo.png", alt="")
-			.header__nav
-				.header__link
-					a(href="#") Главная
-				.header__link
-					a(href="#") Услуги
-					.header-sub
-						a(href="#").header-sub__el Регистрация ООО
-						a(href="#").header-sub__el Ликвидация ООО
-						a(href="#").header-sub__el Регистрация ИП
-						a(href="#").header-sub__el Юридические адреса
-
-				.header__link
-					a(href="#") О нас
-				.header__link
-					a(href="#") Цены
-				.header__link
-					a(href="#") Контакты
-			a(href="#").header__phone 8(495)483-21-21
-			i.icon-bars.header__toggle
+			.header__top-wrap
+				.header__cont-info-el
+					.header__cont-head 
+						i.fa.fa-headphones
+						span позвоните нам
+					.header__cont-text  
+						a(href="call:123123123") 8(964)584-96-41
+				.header__cont-info-el
+					.header__cont-head 
+						i.fa.fa-clock-o
+						span время работы
+					.header__cont-text  09:00 - 19:00 (МСК)
+				.header__cont-info-el
+					.header__cont-head 
+						i.fa.fa-envelope-o
+						span напишите нам
+					.header__cont-text  
+					a(href="mailto:5849641@GMAIL.COM") 5849641@GMAIL.COM
+				a(href="#").header__top-wrap-get.btn.btn--sm.btn--red
+					span заказать
+	.nav-wraper
+		.main-cont
+			.header-wraper
+				.header__nav
+					.header__link
+						a(href="#") Главная
+					.header__link
+						a(href="#") Услуги
+							i.fa.fa-caret-down
+						.header-sub
+							a(href="#").header-sub__el Регистрация ООО
+							a(href="#").header-sub__el Ликвидация ООО
+							a(href="#").header-sub__el Регистрация ИП
+							a(href="#").header-sub__el Юридические адреса
+					.header__link
+						a(href="#") О нас
+					.header__link
+						a(href="#") Цены
+					.header__link
+						a(href="#") Контакты
+				i.icon-bars.header__toggle
 

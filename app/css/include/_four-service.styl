@@ -6,28 +6,55 @@
 	fw()
 .four-service-el
 	+below(768px)
+		fw()
 		width 100%
 		border 0px
-	width 48%
+		margin-bottom 20px
+		padding 0
+		.four-service__img
+			order 1
+			img
+				width 60%
+				display block
+				margin 0 auto
+				margin-bottom 20px 
+		.four-service__info
+			order 2
 	padding 20px
-	margin-bottom 50px
 	position relative
-	border-left 40px solid #f6f6f6
-	bsh()
+	flex(between)
+	&:nth-child(2),
+	&:nth-child(4)
+		.four-service__img
+			order 1
+		.four-service__info
+			order 2
 .four-service-title
 	+below(1200px)
 		font-size 22px
+	+below(768px)
+		text-align center
+		font-size 18px
 	font-size 26px
 	font-weight 700 
 .four-service-text
 	p
+		+below(768px)
+			font-size 14px
 		color #646464
 	img
 		position absolute
 		right 0px
 		top 0
-		
+.four-service__info
+	+below(768px)
+		width 100%
+	width 48%
 .four-service-price
 	font-size 30px
 	color red
 	font-weight 200
+.four-service__img
+	+below(768px)
+		width 100%
+	width 48%

@@ -7,6 +7,7 @@
 .header__logo
 	+below(768px)
 		width 100px
+		flex(mid)
 	margin 5px 0
 	width 200px
 .header-wraper
@@ -24,6 +25,9 @@
 .header__nav
 	+above(768px)
 		display flex!important
+	+below(1200px)
+		width 100%
+		justify-content space-around
 	+below(768px)
 		fw()
 		display none
@@ -35,6 +39,7 @@
 	flex(between)
 	left 0px
 	top 100%
+	width 40%
 .header__phone
 	+below(960px)
 		font-size 16px
@@ -49,6 +54,8 @@
 		width 100%
 		border-top 1px solid grey 
 		display block 
+		padding 0
+	padding 20px 0
 	position relative
 	height 100%
 	flex(mid)
@@ -56,6 +63,11 @@
 	&:hover
 		.header-sub
 			display block
+	&:last-child
+		a
+			margin-right 0
+	.fa-caret-down
+		margin-left 5px
 .header__link > a 
 	+below(960px)
 		font-size 14px
@@ -64,12 +76,14 @@
 		display inline-block
 		padding 10px
 		margin-right 0
+		color #106497
 	up()
-	color dark
+	color white
 	margin-right 30px
 	font-size 16px
 	display block
 	font-weight 700
+	
 .header-sub
 	+below(768px)
 		display block
@@ -95,4 +109,69 @@
 	&:hover
 		background red
 		color white 
-	
+
+.header-top
+	flex(between)
+	+below(768px)
+		margin-bottom 20px
+		fw()
+	.header__logo
+		width 30%
+		+below(1200px)
+			width 20%
+		+below(768px)
+			width 100%
+.header__top-wrap
+	+below(1200px)
+		width 75%
+	+below(768px)
+		width 100%
+		flex-wrap wrap
+	width 60%
+	flex(between)
+	.header__cont-info-el
+		&:nth-child(3)
+			border-right 0px 
+.header__cont-info
+	flex(between)
+.header__cont-info-el
+	+below(768px)
+		border 0px
+		margin-bottom 10px
+	width 100%
+	flex(mid)
+	fl()
+	margin-right 10px
+	border-right 1px  solid  #919191
+.header__cont-head 
+	color #919191
+	margin-bottom 5px
+	text-transform uppercase
+	font-size 12px
+	.fa
+		color #ef3910
+		margin-right 10px
+.header__cont-text  
+	+below(1200px)
+		font-size 14px
+	font-weight 700
+	text-transform uppercase
+	font-size 18px
+	a
+		font-weight 700
+		text-transform uppercase
+		font-size 18px
+.header__top-wrap-get
+	margin-bottom 0
+	margin-left 20px
+	+below(768px)
+		display none
+.header-wraper
+	+below(768px)
+		padding 5px 0
+	justify-content flex-end
+.nav-wraper
+	background #106497 
+.header__toggle
+	color white
+

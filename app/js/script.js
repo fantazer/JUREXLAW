@@ -40,7 +40,7 @@ $(document).ready(function(){
   	dots: false,
   	//autoplay : true,
   	singleItem:true,
-  	nav:true,
+  	nav:false,
   	loop:true,
  		navText:['<i class="fa fa-arrow-circle-o-left"></i>','<i class="fa fa-arrow-circle-o-right"></i>']
   	}
@@ -49,7 +49,7 @@ $(document).ready(function(){
   	items:6,
   	dots: false,
   	singleItem:true,
-  	nav:true,
+  	nav:false,
   	margin:20,
   	loop:true,
   	autoplay:true,
@@ -72,7 +72,7 @@ $(document).ready(function(){
     $(".slider-thanks").owlCarousel({
     	items:6,
     	dots: false,
-    	nav:true,
+    	nav:false,
     	margin:20,
     	loop:true,
     	autoplay:true,
@@ -93,7 +93,7 @@ $(document).ready(function(){
     );  
 	
 	//Animate header
-	var shrinkHeader = 500;
+/*	var shrinkHeader = 500;
   $(window).scroll(function() {
     var scroll = $(this).scrollTop();
       if ( scroll >= shrinkHeader ) {
@@ -105,8 +105,8 @@ $(document).ready(function(){
             $('.header').removeClass('shrink');
             $('body').css('paddingTop',0);
         }
-});
-
+	});
+*/
 //Hide toggle el
 var hideToggle = function(targetClick,toggleEl) {
 		$(targetClick).click(function(event){
