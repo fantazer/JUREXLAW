@@ -1091,7 +1091,7 @@ p,ul {
   align-items: center;
   left: 0px;
   top: 100%;
-  width: 40%;
+  width: 65%;
 }
 
 .header__phone {
@@ -1603,6 +1603,8 @@ p,ul {
 .section-free__text {
   text-transform: uppercase;
   text-align: center;
+  font-size: 18px;
+  color: #0f5d8c;
 }
 
 .section-free__get {
